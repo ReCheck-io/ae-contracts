@@ -1,0 +1,15 @@
+### COMPILE CONTRACTS ###
+aeproject compile --compiler https://compiler.aepps.com
+
+### DEPLOY CONTRACTS ###
+aeproject deploy --compiler https://compiler.aepps.com --network testnet -s 0032eea4216176c33b0f84cdb3eae52bfaa7dbd80826b17c36f31cbeee1f57a0cf3501ce4a2a2f39016496c1ec44ae6d251f411e07bbd6ac0895f66a4c3ea848
+
+### TEST CONTRACTS ###
+aeproject test
+
+### DEV ACCOUNT ###
+Private Key: 0032eea4216176c33b0f84cdb3eae52bfaa7dbd80826b17c36f31cbeee1f57a0cf3501ce4a2a2f39016496c1ec44ae6d251f411e07bbd6ac0895f66a4c3ea848
+Public Address: ak_2aFpvPdgDHdhcLUEtw8pykT3UDqK7R8R55aEE35aH9hB5Fx3jp
+Balance: 5AE
+Balance CMD: aecli account balance .\recheck.ae -u https://sdk-testnet.aepps.com
+
